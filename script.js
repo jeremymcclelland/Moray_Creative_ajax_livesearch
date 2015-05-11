@@ -1,4 +1,5 @@
-$.getJSON('data.json', function(data) {
+$('#search').keyup(function(){
+	$.getJSON('data.json', function(data) {
 	var output = '<ul class = "searchresults">';
 	$.each(data, function(key, val) {
 		output += '<li>';
@@ -11,3 +12,5 @@ $.getJSON('data.json', function(data) {
 
 	$('#update').html(output);
 });//get JSON
+});
+
