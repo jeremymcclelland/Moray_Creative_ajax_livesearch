@@ -4,6 +4,7 @@ body {
 }
 
 #searcharea {
+	margin-top: 10px;
 	margin: 0 auto;
 	text-align: center;
 	background: #BF996B;
@@ -37,6 +38,9 @@ body {
 	width: 70%;
 	margin: 0 auto;
 	border-top: 1px dotted #CCC;
+	padding: 0 20px;
+	background: #EEE;
+
 }
 
 #update ul {
@@ -47,7 +51,6 @@ body {
 
 #update ul li {
 	width: 100%;
-	padding: 0 20px;
 	background: #EEE;
 	padding-bottom: 10px;
 	height: 110px;
