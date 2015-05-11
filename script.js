@@ -3,7 +3,7 @@ $.getJSON('data.json', function(data) {
 	$.each(data, function(key, val) {
 		output += '<li>';
 		output += '<h2>' + val.name + '</h2>';
-		output =+ '</li>';
+		output += '</li>';
 	});
 	output += '</ul>';
 
